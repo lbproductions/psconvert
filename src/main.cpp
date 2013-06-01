@@ -219,5 +219,5 @@ int main(int argc, char *argv[])
 
     schema.dropTable("point");
 
-    return a.exec();
+    return 0;
 }
