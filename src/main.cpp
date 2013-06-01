@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 
     if(a.arguments().size() != 2) {
         qDebug() << "Usage: psconvert <sqlite_database>";
+        return 0;
     }
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
