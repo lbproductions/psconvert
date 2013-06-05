@@ -152,8 +152,8 @@ int main(int argc, char *argv[])
     query.exec("UPDATE game SET mitPflichtsolo = 'false' "
                "WHERE doko_mitPflichtsolo = 'false' OR doko_mitPflichtsolo IS NULL OR doko_mitPflichtsolo = 'null'");
     query.exec("UPDATE drink SET type = 1 WHERE typeString = 'Beer'");
-    query.exec("UPDATE drink SET type = 2 WHERE typeString = 'Schnapps'");
-    query.exec("UPDATE drink SET type = 4 WHERE typeString = 'Mixed beer'");
+    query.exec("UPDATE drink SET type = 4 WHERE typeString = 'Schnapps'");
+    query.exec("UPDATE drink SET type = 2 WHERE typeString = 'Mixed beer'");
     query.exec("UPDATE drink SET type = 5 WHERE typeString = 'Wine'");
     query.exec("UPDATE game SET type = 1 WHERE typeString = 'Doppelkopf'");
     query.exec("UPDATE game SET type = 2 WHERE typeString = 'Skat'");
